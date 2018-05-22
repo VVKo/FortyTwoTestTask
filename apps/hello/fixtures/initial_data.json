@@ -1,0 +1,28 @@
+[
+{
+    "pk": 1,
+    "model": "auth.user",
+    "fields": {
+        "username": "admin",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "password": "pbkdf2_sha256$12000$4FS73gTixob8$1COt8cBS3ITkpDS2UboqNeOnSNlOYv44SyvGHAxU9rY="
+    }
+},
+
+{
+    "pk": 1,
+    "model": "hello.person",
+    "fields": {
+        "bio": "Spy. \n Agent.",
+        "first_name": "James",
+        "last_name": "Bond",
+        "contacts": "facebook.com \nlinkedin.com \ngmail.com",
+        "birthday": "1953-04-13",
+        "skype": "agent007",
+        "jabber": "agent007",
+        "email": "james@bond.mi"
+    }
+}
+]
