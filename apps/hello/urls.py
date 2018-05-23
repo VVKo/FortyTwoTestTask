@@ -1,8 +1,10 @@
 from django.conf.urls import url, patterns
 from apps.hello import views
 
+app_name = 'hello'
+
 urlpatterns = patterns(
-    'apps.hello.views',
-    url(r'^$', views.index,
-        name='home'),
+    '',
+    url(r'^$', views.ShowPersonalDataView.as_view(),
+        name='index'),
 )
