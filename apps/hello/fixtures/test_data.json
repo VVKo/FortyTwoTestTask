@@ -1,0 +1,17 @@
+[
+
+{
+    "pk": 1,
+    "model": "hello.person",
+    "fields": {
+        "bio": "Spy. \n Agent. ",
+        "first_name": "James",
+        "last_name": "Bond",
+        "contacts": "facebook.com \nlinkedin.com \ngmail.com",
+        "birthday": "1953-04-13",
+        "skype": "agent007",
+        "jabber": "agent007",
+        "email": "james@bond.mi"
+    }
+}
+]
