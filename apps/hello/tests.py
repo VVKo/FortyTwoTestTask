@@ -18,7 +18,7 @@ class ShowPersonTest(TestCase):
         """Testing usage of the needed templates.
         First checking the status code, then checking templates.
         """
-        response = self.client.get(reverse('index'))
+        response = self.client.get(reverse('index1'))
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'hello/index.html',
                                 'hello/base.html')
